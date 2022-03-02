@@ -1,0 +1,55 @@
+.pricing{
+    .pricing_head{
+        h2{
+            @include head_text;
+        }
+        p{
+            @include head_peragraph;
+        }
+    }
+    .pricing_card{
+        .card{
+            transition: 0.5s;
+            &:hover{
+                border: .1rem solid $color_01;
+                box-shadow: 10px 10px 5px grey;
+            }
+        }
+        text-align: center;
+        .card_top{
+            padding: 2rem;
+            background-color: $color_01;
+            .pricing_img{
+                width: 5rem;
+                height: auto;
+                margin: 0 auto;
+            }
+            P{
+                color: #fff;
+                margin: .5rem 0;
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+        }
+        ul{
+            li{
+                padding: 1rem;
+            }
+        }
+        button{
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border: none;
+            padding: .5rem;
+            transition: 0.5s;
+            background-color: $color_01;
+            &:hover{
+                color: #000;
+                background-color: #fff;
+                border: .2rem solid $color_01;
+            }
+        }
+        
+    }
+}

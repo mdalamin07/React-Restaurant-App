@@ -1,0 +1,48 @@
+.inner_about{
+    h2{
+        @include head_text;
+    }
+    h3{
+        font-weight: bold;
+        margin-bottom: .9rem;
+    }
+    p{
+        color: #686868;
+        font-size: .9rem;
+    }
+    img{
+        border-radius: 50%;
+    }
+}
+.about_img{
+    position: relative;
+}
+.about_img2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.bottom_about{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(../image/special_menu_bg.jpg);
+    h4{
+        @include head_text;
+    }
+    p{
+        color: #fff;
+        font-size: 1.2rem;
+    }
+}
+div#carouselExampleControls {
+    overflow: hidden;
+    height: 320px;
+}
+.carousel-indicators button {
+    border-radius: 50%;
+    width: 20px !important;
+    height: 20px !important;
+    border: 3px solid #fff !important;
+    background-color: $color_01 !important;
+}

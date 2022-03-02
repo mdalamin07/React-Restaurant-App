@@ -1,0 +1,49 @@
+.team{
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(../image/team_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .team_head{
+        h2{
+            @include head_text;
+            color: #fff;
+        }
+        p{
+            @include head_peragraph;
+            color: #fff;
+        }
+    }
+}
+.team_member{
+    .card{
+        transition: 0.4s;
+        h3{
+            color: #000;
+            font-size: 1.5rem;
+            font-weight: 600;
+            font-family: $my_font;
+        }
+        p{
+            color: #666;
+            font-size: .9rem;
+        }
+        hr{
+            opacity:1;
+        }
+        &:hover{
+            background-color: $color_01;
+            h3{
+                color: #fff !important;
+            }
+            p{
+                color: #fff !important;
+            }
+            hr{
+                color: #fff !important;
+            }
+        }
+    }
+}
+.team_social_icon{
+    padding-bottom: 1rem;
+}

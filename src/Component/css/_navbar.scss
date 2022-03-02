@@ -1,0 +1,25 @@
+.navbar{
+    background-color: #1f1f1f;
+}
+.nav-link{
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.93rem;
+    letter-spacing: .01rem;
+    transition: 0.4s;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: $color_01 !important;
+}
+.mylink{
+    color: $color_01 !important;
+    border-bottom: 2px solid $color_01;
+}
+.scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }

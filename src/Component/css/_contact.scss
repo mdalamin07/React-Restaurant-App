@@ -1,0 +1,38 @@
+.contact{
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url(../image/newsletter-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contact_head{
+    h2{
+        @include head_text;
+        color: #fff;
+        text-align: center;
+    }
+    p{
+        @include head_peragraph;
+        text-align: center;
+        color: #fff !important;
+    }
+}
+.inner_contact{
+    background-image: linear-gradient(rgba(0,0,0,.57),rgba(0,0,0,.87)), url(../image/footer_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+// ContactColum
+
+.col_head{
+    color: $color_01;
+    font-family: $my_font;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+.col_body{
+    color: #fff;
+    font-size: .9rem;
+}

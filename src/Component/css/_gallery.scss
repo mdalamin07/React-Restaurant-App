@@ -1,0 +1,22 @@
+// .gallery{
+//     // h2{
+//     //     @include head_text;
+//     // }
+// }
+.gallery_head{
+    h2{
+        @include head_text;
+    }
+    p{
+        @include head_peragraph;
+    }
+}
+.gallery_item {
+    width: 100%;
+    padding: 3px;
+    height: 350px;
+    overflow: hidden;
+    &:hover{
+        background-color: $color_01;
+    }
+}
